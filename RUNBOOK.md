@@ -8,7 +8,12 @@
 ## Local Setup
 
 1. **Clone the repository** (if not already done).
-2. **Start the services**:
+2. **Setup Environment Variables**:
+   ```bash
+   cp .env.example .env
+   # Edit .env and set secure passwords
+   ```
+3. **Start the services**:
    ```bash
    docker compose up --build
    ```
